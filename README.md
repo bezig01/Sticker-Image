@@ -1,4 +1,4 @@
-# Sticker-Image
+# StickerView
 
 <p align="center">
 <img src="https://img.shields.io/badge/swift-4.0%2B-brightgreen.svg" alt="Swift 4.0"/>
@@ -9,7 +9,7 @@
 </a>
 </p>
 
-Sticker-Image is the demo-example of how to use sticekrs. It help you to adding stickr on `UIImageview` and `UIView`. It is very easy to implement in the existing project OR new project. Please find below the step of implemenation.
+StickerView is the demo-example of how to use stickers. It help you to adding stickr on `UIImageView` and `UIView`. It is very easy to implement in the existing project OR new project. Please find below the step of implemenation.
 
 ##### Also note, I am assumes you are comfortable with the basics of storyboards and view controllers.
 
@@ -59,7 +59,7 @@ private var _selectedStickerView:StickerView?
         }
     }
 ```
-3) Adding sticker on the View. Here I add sticker on the `UIImageview`.
+3) Adding sticker on the View. Here I add sticker on the `UIImageView`.
 
 ```
     let testImage = UIImageView.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 100))
@@ -169,7 +169,7 @@ we need to add permission first in the `info.plist` file.
 
 ## License
 
-Sticker-Image is released under the MIT license.
+StickerView is released under the MIT license.
 See [LICENSE](./LICENSE) for details.
 
 

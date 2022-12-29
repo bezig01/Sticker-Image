@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57A0A1441EA28F57505BBC40 /* Pods_StickerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3568AD7209D40CE199F4D6A8 /* Pods_StickerDemo.framework */; };
 		9A5C9A662237CF7F0046FB40 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C9A652237CF7F0046FB40 /* AlertController.swift */; };
 		9A5C9A6A2237D4A50046FB40 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C9A682237D4A50046FB40 /* StickerCell.swift */; };
 		9A5C9A6B2237D4A50046FB40 /* StickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5C9A692237D4A50046FB40 /* StickerCell.xib */; };
@@ -17,6 +16,7 @@
 		9AB8E25B2209C28700319213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8E2592209C28700319213 /* Main.storyboard */; };
 		9AB8E25D2209C28E00319213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8E25C2209C28E00319213 /* Assets.xcassets */; };
 		9AB8E2602209C28E00319213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8E25E2209C28E00319213 /* LaunchScreen.storyboard */; };
+		DE2617A1294755EF00B28B1B /* StickerView in Frameworks */ = {isa = PBXBuildFile; productRef = DE2617A0294755EF00B28B1B /* StickerView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +33,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3568AD7209D40CE199F4D6A8 /* Pods_StickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5C9A652237CF7F0046FB40 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		9A5C9A682237D4A50046FB40 /* StickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
 		9A5C9A692237D4A50046FB40 /* StickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickerCell.xib; sourceTree = "<group>"; };
@@ -45,8 +44,7 @@
 		9AB8E25C2209C28E00319213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB8E25F2209C28E00319213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AB8E2612209C28E00319213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEF2161568D459329E7A7C2D /* Pods-StickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerDemo.debug.xcconfig"; path = "Target Support Files/Pods-StickerDemo/Pods-StickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F15D2EB8C73A486E8F70B643 /* Pods-StickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerDemo.release.xcconfig"; path = "Target Support Files/Pods-StickerDemo/Pods-StickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DE26179E294755A400B28B1B /* StickerView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StickerView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,30 +52,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A0A1441EA28F57505BBC40 /* Pods_StickerDemo.framework in Frameworks */,
+				DE2617A1294755EF00B28B1B /* StickerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		203E5C3D614DD3E1B95A1843 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BEF2161568D459329E7A7C2D /* Pods-StickerDemo.debug.xcconfig */,
-				F15D2EB8C73A486E8F70B643 /* Pods-StickerDemo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		9941EEAA53AEE8E476C6B092 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3568AD7209D40CE199F4D6A8 /* Pods_StickerDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9A5C9A672237D4A50046FB40 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,10 +71,10 @@
 		9AB8E2492209C28700319213 = {
 			isa = PBXGroup;
 			children = (
+				DE26179D294755A400B28B1B /* Packages */,
 				9AB8E2542209C28700319213 /* StickerDemo */,
 				9AB8E2532209C28700319213 /* Products */,
-				203E5C3D614DD3E1B95A1843 /* Pods */,
-				9941EEAA53AEE8E476C6B092 /* Frameworks */,
+				DE26179F294755EF00B28B1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +102,21 @@
 			path = StickerDemo;
 			sourceTree = "<group>";
 		};
+		DE26179D294755A400B28B1B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DE26179E294755A400B28B1B /* StickerView */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		DE26179F294755EF00B28B1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,18 +124,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AB8E2642209C28E00319213 /* Build configuration list for PBXNativeTarget "StickerDemo" */;
 			buildPhases = (
-				86E2A571DC95BD2D665BB428 /* [CP] Check Pods Manifest.lock */,
 				9AB8E24E2209C28700319213 /* Sources */,
 				9AB8E24F2209C28700319213 /* Frameworks */,
 				9AB8E2502209C28700319213 /* Resources */,
 				9AB8E26B2209C3AD00319213 /* Embed Frameworks */,
-				E297367A501B7F9FF9D260D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = StickerDemo;
+			packageProductDependencies = (
+				DE2617A0294755EF00B28B1B /* StickerView */,
+			);
 			productName = StickerDemo;
 			productReference = 9AB8E2522209C28700319213 /* StickerDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -192,53 +189,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		86E2A571DC95BD2D665BB428 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StickerDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E297367A501B7F9FF9D260D4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StickerDemo/Pods-StickerDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/StickerView/StickerView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StickerView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StickerDemo/Pods-StickerDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AB8E24E2209C28700319213 /* Sources */ = {
@@ -394,7 +344,6 @@
 		};
 		9AB8E2652209C28E00319213 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEF2161568D459329E7A7C2D /* Pods-StickerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,7 +366,6 @@
 		};
 		9AB8E2662209C28E00319213 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F15D2EB8C73A486E8F70B643 /* Pods-StickerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +408,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE2617A0294755EF00B28B1B /* StickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StickerView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9AB8E24A2209C28700319213 /* Project object */;
 }
